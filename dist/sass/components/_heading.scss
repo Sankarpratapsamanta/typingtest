@@ -1,0 +1,20 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    // color:#c47896;
+    // color: #fa5ced;
+    z-index: 5;
+    color: darkkhaki;
+    text-transform: uppercase;
+    margin-top: 6rem;
+    font-weight:900;
+    letter-spacing: 8px;
+}
+.instruction-heading{
+    color: $color-white;
+}
+@media only screen and (max-width: 767px) {
+    .heading {
+        font-size: 1rem;
+    }
+  }

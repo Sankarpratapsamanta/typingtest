@@ -1,0 +1,101 @@
+#question{
+    color: $color-white;
+    display: flex;
+    margin-top: 2rem;
+    letter-spacing: 5px;
+    justify-content: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+#input{
+    width: 50%;
+    height: 40px;
+    border: none;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border-bottom:5px solid $color-main;
+}
+#input::placeholder{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#input:focus{
+    outline: none; 
+}
+.content{
+    border: 10px solid $color-main;
+    border-radius:5rem;
+    box-shadow: 2px 2px 3px #75797d ,-2px -2px 3px #75797d;
+    background-color: $color-main;
+}
+.declare{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.result{
+    color: $color-white;
+    font-size: 1rem;
+}
+.result-2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: crimson;
+    z-index: 10;
+    animation:formtop 2s ease-out;
+}
+.exit{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.times-left{
+    color: $color-white;
+    font-size: 1.2rem;
+}
+.time{
+    color: #a2b85a;
+    font-weight: bold;
+}
+.score{
+    color: $color-white;
+    font-size: 1.2rem;
+}
+.point{
+    color: #a2b85a;
+    font-weight: bold;
+}
+.my-score{
+    color: $color-white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+.your-score{
+    color: #a2b85a;
+    font-weight: bold;
+}
+.reload{
+    text-align: center;
+    
+}
+.reload-icon{
+    height: 40px;
+    cursor: pointer;
+}
+.try{
+    color: #d14b56;
+    text-align: center;
+    margin-top: 1rem;
+}
+.instruction{
+    color: gray;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    background-color: $color-main;
+    box-shadow: 2px 2px 3px #75797d ,-2px -2px 3px #75797d;
+    width: 50%;
+    margin: 3rem auto;
+}

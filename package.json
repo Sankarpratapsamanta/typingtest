@@ -1,0 +1,17 @@
+{
+  "name": "typing",
+  "version": "1.0.0",
+  "description": "word game",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style/style.css -w",
+    "deploy":"gh-pages -d dist"
+  },
+  "author": "sankar",
+  "license": "ISC",
+  "homepage":"https://sankarpratapsamanta.github.io/typingtest",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.13.0"
+  }
+}
