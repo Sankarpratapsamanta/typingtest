@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Typing Test Game</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css" >
+</head>
+<body>
+    <div class="container">
+        <div class="word-game">
+            <h1 class="heading"><i class='fas fa-star' style='color:#edf78d'></i>    Typing Test    <i class='fas fa-star' style='color:#edf78d'></i>
+                </h1>
+            <div class="content">
+                <h2 id="question">Mango</h2>
+                <div class="input">
+                    <input type="text" id="input" placeholder="start typing...">
+                </div>
+                <div class="declare">
+                    <p class="result">Correct !   <img class="emoji-1" src="https://cdn4.iconfinder.com/data/icons/smiley-2-1/32/104-512.png"/></p>
+                    <p class="result-2">Game Over !    <img class="emoji-1" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Sad_Face_Emoji_large.png?v=1480481055"/></p>
+                </div>
+                <div class="exit">
+                    <p class="times-left">Times Left : <span class="time">10</span></p>
+                    <p class="score">Score : <span class="point">0</span></p>
+                </div>
+                <p class="my-score">Total Score : <span class="your-score">0</span></p>
+                <p class="reload"><img class="reload-icon" src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-color-round/3/47-512.png" alt="reload-icon"></p>
+                <p class="try">play again !</p>
+            </div>
+            <p class="instruction text-center"><img class="bulb-image" src="http://www.inventicons.com//uploads/iconset/257/wm/512/Bulb-52.png" alt="blub-image"><span class="instruction-heading">INSTRUCTIONS : </span>   You have to write the above word in the blank space within 10 seconds..if you successfully write the correct word within the given time then you get 2 points..Then the word is replace by a another word and you have to play the game in the same way until your game is not over !!!</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
