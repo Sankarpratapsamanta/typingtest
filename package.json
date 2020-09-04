@@ -12,6 +12,6 @@
   "homepage":"https://sankarpratapsamanta.github.io/typingtest",
   "dependencies": {
     "gh-pages": "^2.1.1",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   }
 }
